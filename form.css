@@ -1,10 +1,32 @@
 body{
   padding: 0;
   margin: 0;
+  background-image: url("cover.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  background-size: cover;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
 }
 
-body > img{
-  background-position: fix;
-  width: 100vw;
-}
 
+/* body > img{
+  background-size: cover;
+  width:100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+} */
+
+.main-container{
+  height: 400px;
+  width: 600px;
+  border: solid black;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
